@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Travel site</title>
+	<link rel="stylesheet" href="css/stylez.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+	<header>
+
+		<section class="fstLnHder">
+			<div class="hdrTpLft-telNum">
+				<span class="phone">90-9998-57-$0</span>
+				<span class="hedMail">send.us@info.ru</span>
+			</div>
+			<div class="hdrTpRht-Soc center">
+				<div class="soc">
+					<a href="facebook" class="socBtn allHref icon-facebook center">facebook</a>
+					<a href="twitter" class="socBtn allHref icon-twitter-bird center">twitter</a>
+					<a href="instagram" class="socBtn allHref icon-instagram center">instagram</a>
+					<a href="linked-in" class="socBtn allHref icon-linkedin center">linked-in</a>
+				</div>
+				<div class="vhodWrap">
+					<div class="vhod"  tabindex="0">Sign in</div>
+					<div class="login cmnFrm">
+						<h2>Login</h2>
+						<hr>
+						<form action="#" method="post" class="formLgn">
+							<input type="email" name="LgnEmail" id="" placeholder="Email or name" autofocus>
+							<input type="password" name="" id="" placeholder="Password">
+							<input type="submit" value="Log in">
+							<div class="remFgt">
+								<input type="checkbox" class="hidden" name="" id="remember">
+								<label for="remember" tabindex="0">Remember me</label>
+								<a href="#" class="frgt">Forgot password?</a>
+							</div>
+						</form>
+						<hr>
+						<p>or continue</p>
+						<div class="btnWrp">							
+							<a class="icon-facebook center" tabindex="0">Facebook</a>
+							<a class="icon-twitter-bird center" tabindex="0">Twitter</a>
+						</div>
+						<hr>
+						<p class="lastP">Do not have account? <a href="#" class="toReg"> Sign up</a></p>
+					</div>
+					<div class="rcvrPas cmnFrm">
+						<h2>Recover password</h2>
+						<hr>
+						<form action="#" class="pass">
+							<label for="rcvrEmail" class="">
+								<input type="email" name="email" id="rcvrEmail" placeholder="email"><span class="mailIcn"></span>
+							</label>
+							<input type="submit" value="Recover password">
+							<p>Remember pass <a href="#" class="rcvrLgin"> Log in</a></p>
+						</form>
+					</div>
+					<div class="register cmnFrm">
+						<h2>Zaregitsya</h2>
+						<hr>
+						<form action="#">
+							<input type="text" name="userName" id="userName" placeholder="User imyia">
+							<input type="email" name="LgnEmail" id="" placeholder="Email or name" autofocus>
+							<input type="password" name="password" id="" placeholder="Password">
+							<input type="submit" value="Regaty">
+						</form>
+						<hr>
+						<p>or continue</p>
+						<div class="btnWrp">							
+							<a class="icon-facebook center" tabindex="0">Facebook</a>
+							<a class="icon-twitter-bird center" tabindex="0">Twitter</a>
+						</div>
+						<hr>
+						<p class="lastP">Already have an acct <a href="#" class="regToLogin"> Logsya</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="scdLnHder-logo">
+			<a href="" class="logo"> 
+				<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 297 240" fill="" style="enable-background:new 0 0 297 297;" xml:space="preserve" width="40px">
+				<path d="M289.442,176.214l-24.482-24.483c-4.875-4.873-11.354-7.556-18.245-7.556l-66.231,0L92.845,78.7
+					c-1.704-1.274-3.774-1.961-5.901-1.961H64.396c-3.384,0-6.532,1.736-8.338,4.598c-1.806,2.862-2.018,6.451-0.561,9.504
+					l25.437,53.333l-18.179,0l-9.407-37.628c-1.097-4.388-5.04-7.467-9.564-7.467H32.51c-3.284,0-6.352,1.635-8.184,4.36
+					c-1.071,1.593-26.157,39.415-24.22,79.056c0.101,9.234,5.396,37.767,66.226,37.767h204.865c14.228,0,25.802-11.574,25.802-25.802
+					C297,187.568,294.316,181.088,289.442,176.214z M83.668,96.456l96.215,71.881h-65.577L80.021,96.456H83.668z M271.198,200.544
+					H66.333c-27.819,0-46.51-7.365-46.51-18.326c0-0.168-0.005-0.338-0.013-0.506c-1.248-24.269,10.463-48.97,16.874-60.531
+					l8.811,35.244c1.097,4.388,5.04,7.467,9.564,7.467l35.281,0l8.847,18.549c1.637,3.43,5.099,5.615,8.899,5.615h101.465
+					c4.247,0,8.016-2.72,9.356-6.75c1.339-4.03-0.053-8.465-3.455-11.006l-8.575-6.407l39.839,0c1.625,0,3.154,0.633,4.303,1.782
+					l24.481,24.482c1.15,1.15,1.783,2.677,1.783,4.303C277.282,197.815,274.553,200.544,271.198,200.544z"/>
+				</svg>
+			Some site</a>
+			<div class="srch ">
+				<label for="search" class="srchBtn center hidden" tabindex="0" >search for restle</label>
+				<form action="" method="get" class="hderSearcher">
+					<div class="srchWrp">
+						<span class="serchIcn">
+							<input type="search" id="search" class="" list="srchList" placeholder="choose your flight" >
+						</span>
+						<ul class="srchLst ">
+							<li><span class="srchCntry">Canada</span><span class="capital">Ottawa</span></li>
+							<li><span class="srchCntry">England</span><span class="capital">London</span></li>
+							<li><span class="srchCntry">Czech</span><span class="capital">Prague</span></li>
+							<li><span class="srchCntry">Poland</span><span class="capital">Warsaw</span></li>
+							<li><span class="srchCntry">Island</span><span class="capital">Reykiavic</span></li>
+						</ul>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="thrdLnHder-choises">
+
+			<div class="menu icon-menu">Menu</div>
+
+			<div class="mainChoiseWrap ">
+				<div class="choiseWrap">
+					<div class="choise center" tabindex="0">Part of the World</div>
+					<ul class="choiseList ">
+						<li><a href="#">America</a></li>
+						<li><a href="#">Africa</a></li>
+						<li><a href="#">Russia</a></li>
+						<li><a href="#">moon</a></li>
+					</ul>
+				</div>
+				<div class="choiseWrap" >
+					<div class="choise" tabindex="0">City</div>
+					<ul class="choiseList">
+						<li><a href="#">Barnaul</a></li>
+						<li><a href="#">Moscow</a></li>
+						<li><a href="#">City of man</a></li>
+						<li><a href="#">Havana</a></li>
+					</ul>
+				</div>
+				<div class="choiseWrap">
+					<div class="choise" tabindex="0">Type of room</div>
+					<ul class="choiseList">
+						<li><a href="#">Accomodation</a></li>
+						<li><a href="#">Bad and breakfast</a></li>
+						<li><a href="#">only roof</a></li>
+						<li><a href="#">beds city</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="mainChoiseWrap">
+				<div class="choiseWrap">
+					<div class="choise" tabindex="0">Season</div>
+					<ul class="choiseList">
+						<li><a href="#">automn</a></li>
+						<li><a href="#">Up season</a></li>
+						<li><a href="#">last week of the holidays</a></li>
+						<li><a href="#">some monthes</a></li>
+					</ul>
+				</div>
+				<div class="choiseWrap">
+					<div class="choise" tabindex="0">Activity</div>
+					<ul class="choiseList">
+						<li><a href="#">Homecitting</a></li>
+						<li><a href="#">Go mountin</a></li>
+						<li><a href="#">Go to water</a></li>
+						<li><a href="#">Old drinks</a></li>
+					</ul>
+				</div>
+				<div class="cart icon-grocery-store"  tabindex="0">
+					<div class="cartAl">
+						<h3>Your cart</h3>
+						<ul class="cartList">
+							<li>
+								<div class="cartImg"></div>
+								<p>
+									<span class="cartCost">$300</span>
+									<br>
+									<span class="cartDrctn">Flight to Prague</span>
+								</p>
+							</li>
+							<li>
+								<div class="cartImg"></div>
+								<p>
+									<span class="cartCost">$200</span>
+									<br>
+									<span class="cartDrctn">tour to Prašná brána</span>
+								</p>
+							</li>
+						</ul>
+						<div class="byBtn">
+							<a href="#" class="buy">View cart</a>
+							<a href="#" class="contChs">Submit</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="frthLnHder-head">
+			<h1>Best choise for your tours</h1>
+			<p>Discover all the world for yourself</p>
+
+		</section>
+
+		<section class="fvLnHder-actv ">
+
+			<div class="tpActvWrpr">
+				<span class="tpActv  icon-fort-awesome  crntActv">Sights</span>
+				<span class="tpActv icon-building ">Houses</span>
+				<span class="tpActv icon-anchor  ">Narrow's</span>
+				<span class="tpActv  icon-food ">Drink-place</span>
+				<span class="tpActv icon-cab ">Vehicles</span>
+			</div>			
+			<div class="actvWrp">
+
+				<form action="#" class="atvFrm crntFrm">
+				<section>
+					<span>Destination or type of place</span>
+					<div class="dest" tabindex="0">Where do you want to be?</div>
+					<div class="actvLst actvFrmLst">
+						<input type="search" name="actvSrch" class="sihtSrch" autofocus="">
+						<span>Landmark</span>
+						<span>Tour highlight</span>
+						<span>Places</span>
+						<span>sights</span>
+					</div>
+				</section>
+				<section>
+					<label for="">Date of hike tour</label><br>
+					<input type="date" pattern="mm.dd.YYYY">
+				</section>
+				<section>
+					<span>Person</span>
+					<input type="text" class="gstAmnt" name="guests" value="size of gruop" readonly="">
+					 <div class="prsnWrp actvFrmLst ">
+					 	<div class="prsnChs">
+					 		<div class="prsn">Adult</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les adultAmountLes" id=""></span>
+					 			<input type="text" class="adultAmount" name="adultAmount" value="0">
+					 			<span class="amntChng mor adultAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<div class="prsnChs">
+					 		<div class="prsn">Kids</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les kidAmountLes" id=""></span>
+					 			<input type="text" class="kidAmount" name="kidAmount" value="0">
+					 			<span class="amntChng mor kidAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<p class="clsPrsn">Done</p>
+					 </div>
+				</section>
+				<input type="submit" value="Search">
+				</form>
+
+				<form action="#" class="atvFrm">
+				<section>
+					<span>Type of hotel</span>
+					<div class="dest" tabindex="0">Where do you want to be?</div>
+					<div class="actvLst actvFrmLst">
+						<input type="search" name="actvSrch" class="sihtSrch" autofocus="">
+						<span>standart room</span>
+						<span>ajoing numbers</span>
+						<span>Dbl</span>
+						<span>single room</span>
+					</div>
+				</section>
+				<section>
+					<label for="">Check In - Out</label><br>
+					<input type="date" pattern="mm.dd.YYYY">
+				</section>
+				<section>
+					<span>Guests</span>
+					<input type="text" class="gstAmnt" name="guests" value="size of gruop" readonly="">
+					 <div class="prsnWrp actvFrmLst ">
+					 	<div class="prsnChs">
+					 		<div class="prsn">Adult</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les adultAmountLes" id=""></span>
+					 			<input type="text" class="adultAmount" name="adultAmount" value="0">
+					 			<span class="amntChng mor adultAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<div class="prsnChs">
+					 		<div class="prsn">Kids</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les kidAmountLes" id=""></span>
+					 			<input type="text" class="kidAmount" name="kidAmount" value="0">
+					 			<span class="amntChng mor kidAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<p class="clsPrsn">Done</p>
+					 </div>
+				</section>
+				<input type="submit" value="Search">
+				</form>
+			
+				<form action="#" class="atvFrm">
+				<section>
+					<span>Choose your transport</span>
+					<div class="dest" tabindex="0">What's your prefer?</div>
+					<div class="actvLst actvFrmLst">
+						<input type="search" name="actvSrch" class="sihtSrch" autofocus="">
+						<span>Boats</span>
+						<span>Hydrocycles</span>
+						<span>Kayak</span>
+						<span>Sweaming</span>
+					</div>
+				</section>
+				<section>
+					<label for="">Date </label><br>
+					<input type="date" pattern="mm.dd.YYYY">
+				</section>
+				<section>
+					<span>Swimmers</span>
+					<input type="text" class="gstAmnt" name="guests" value="How many people" readonly="">
+					 <div class="prsnWrp actvFrmLst ">
+					 	<div class="prsnChs">
+					 		<div class="prsn">Adult</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les adultAmountLes" id=""></span>
+					 			<input type="text" class="adultAmount" name="adultAmount" value="0">
+					 			<span class="amntChng mor adultAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<div class="prsnChs">
+					 		<div class="prsn">Kids</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les kidAmountLes" id=""></span>
+					 			<input type="text" class="kidAmount" name="kidAmount" value="0">
+					 			<span class="amntChng mor kidAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<p class="clsPrsn">Done</p>
+					 </div>
+				</section>
+				<input type="submit" value="Search">
+				</form>
+			
+				<form action="#" class="atvFrm">
+				<section>
+					<span>Order a meal</span>
+					<div class="dest" tabindex="0">Where do you want to eat?</div>
+					<div class="actvLst actvFrmLst">
+						<input type="search" name="actvSrch" class="sihtSrch" autofocus="">
+						<span>Kabak</span>
+						<span>Korchma</span>
+						<span>Pivbar</span>
+						<span>Another</span>
+					</div>
+				</section>
+				<section>
+					<label for="">When do you go</label><br>
+					<input type="date" pattern="mm.dd.YYYY">
+				</section>
+				<section>
+					<span>How many persons?</span>
+					<input type="text" class="gstAmnt" name="guests" value="includes kids" readonly="">
+					 <div class="prsnWrp actvFrmLst ">
+					 	<div class="prsnChs">
+					 		<div class="prsn">Adult</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les adultAmountLes" id=""></span>
+					 			<input type="text" class="adultAmount" name="adultAmount" value="0">
+					 			<span class="amntChng mor adultAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<div class="prsnChs">
+					 		<div class="prsn">Kids</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les kidAmountLes" id=""></span>
+					 			<input type="text" class="kidAmount" name="kidAmount" value="0">
+					 			<span class="amntChng mor kidAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<p class="clsPrsn">Done</p>
+					 </div>
+				</section>
+				<input type="submit" value="Search">
+				</form>
+			
+				<form action="#" class="atvFrm">
+				<section>
+					<span>Transport</span>
+					<div class="dest" tabindex="0">Which way do you want to go throw city?</div>
+					<div class="actvLst actvFrmLst">
+						<input type="search" name="actvSrch" class="sihtSrch" autofocus="">
+						<span>Cars</span>
+						<span>River transport</span>
+						<span>Walk on foot</span>
+						<span>Bysicle</span>
+					</div>
+				</section>
+				<section>
+					<label for="">Date of trip</label><br>
+					<input type="date" pattern="mm.dd.YYYY">
+				</section>
+				<section>
+					<span>People</span>
+					<input type="text" class="gstAmnt" name="guests" value="How many pearsons will trip" readonly="">
+					 <div class="prsnWrp actvFrmLst ">
+					 	<div class="prsnChs">
+					 		<div class="prsn">Adult</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les adultAmountLes" id=""></span>
+					 			<input type="text" class="adultAmount" name="adultAmount" value="0">
+					 			<span class="amntChng mor adultAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<div class="prsnChs">
+					 		<div class="prsn">Kids</div>
+					 		<div class="prsnAmnt">
+					 			<span class="amntChng les kidAmountLes" id=""></span>
+					 			<input type="text" class="kidAmount" name="kidAmount" value="0">
+					 			<span class="amntChng mor kidAmountMor" id=""></span>
+					 		</div>
+					 	</div>
+					 	<p class="clsPrsn">Done</p>
+					 </div>
+				</section>
+				<input type="submit" value="Search">
+				</form>
+			
+			</div>
+		</section>
+
+	</header>
+
+
+	<main>
+
+		<section class="fstBlck-cntr">
+			<h2 class="comn"> Different destinations</h2>
+			<div class="fstFlx">
+				<div class="imgWrp">
+					<div class="imgCntr">
+					</div>
+					<h3>some country</h3>
+					<div class="line"></div>
+					<ul>
+						<li><a href="#">30 Hotel</a></li>
+						<li><a href="#">48 Tour</a></li>
+						<li><a href="#">46 Activity</a></li>
+						<li><a href="#">32 Yacht</a></li>
+					</ul>
+				</div>
+				<div class="imgWrp">
+					<div class="imgCntr">
+					</div>
+					<h3>another one</h3>
+					<div class="line"></div>
+					<ul>
+						<li><a href="#">30 Hotel</a></li>
+						<li><a href="#">48 Tour</a></li>
+						<li><a href="#">46 Activity</a></li>
+						<li><a href="#">32 Yacht</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="scdFlx">
+				<div class="undrFlx">
+					<div class="imgWrp">
+						<div class="imgCntr">
+						</div>
+						<h3>one more</h3>
+						<div class="line"></div>
+						<ul>
+							<li><a href="#">30 Hotel</a></li>
+							<li><a href="#">48 Tour</a></li>
+							<li><a href="#">46 Activity</a></li>
+							<li><a href="#">32 Yacht</a></li>
+						</ul>
+					</div>
+					<div class="imgWrp">
+						<div class="imgCntr">
+						</div>
+						<h3>almost last country</h3>
+						<div class="line"></div>
+						<ul>
+							<li><a href="#">30 Hotel</a></li>
+							<li><a href="#">48 Tour</a></li>
+							<li><a href="#">46 Activity</a></li>
+							<li><a href="#">32 Yacht</a></li>
+						</ul>
+					</div>
+				</div> <!-- undrFlx2 -->
+				<div class="undrFlx">
+					<div class="imgWrp">
+						<div class="imgCntr">
+						</div>
+						<h3>That's Last</h3>
+						<div class="line"></div>
+						<ul>
+							<li><a href="#">30 Hotel</a></li>
+							<li><a href="#">48 Tour</a></li>
+							<li><a href="#">46 Activity</a></li>
+							<li><a href="#">32 Yacht</a></li>
+						</ul>
+					</div>
+					<div class="imgWrp">
+						<div class="imgCntr">
+						</div>
+						<h3>No, this one</h3>
+						<div class="line"></div>
+						<ul>
+							<li><a href="#">30 Hotel</a></li>
+							<li><a href="#">48 Tour</a></li>
+							<li><a href="#">46 Activity</a></li>
+							<li><a href="#">32 Yacht</a></li>
+						</ul>
+					</div>
+				</div> <!-- undrFlx2 -->
+			</div>  <!-- scdFlx -->
+		</section>
+
+		<hr>
+
+		<section class="scdBlck-trnd">
+
+			<h2 class="comn">Trendings</h2>
+			<div class="trndChoise center">
+				<span id="chs1" class="chs crntChs">Country</span>
+				<span id="chs2" class="chs">Citys</span>
+				<span id="chs3" class="chs">Sights</span>
+			</div>
+
+			<div class="alTrnds">
+				<div id="trndCntr" class="trndWrp">
+
+					<div class="trndItm">
+						<div class="imgTrnd">
+							<div class="theImg"></div>
+							<div class="imgOpis">Northen</div>
+							<div class="price">From <span>$300</span></div>
+						</div>
+						<div class="trndDesc">
+							<div class="icon-location map">Nordic island country</div>
+							<a href="">Reykjavikj, Iceland</a>
+							<div class="trndRew star-3">49 reviwes</div>
+							<p class="postTime">3 hours ago</p>
+						</div>
+					</div>
+
+					<div class="trndItm">
+						<div class="imgTrnd">
+							<div class="theImg"></div>
+							<div class="imgOpis"></div>
+							<div class="price">From <span>$250</span></div>
+						</div>
+						<div class="trndDesc">
+							<div class="icon-location map">Europ, Breatain</div>
+							<a href="">Great Breatan</a>
+							<div class="trndRew star-3">49 reviwes</div>
+							<p class="postTime">3 hours ago</p>
+						</div>
+					</div>
+
+					<div class="trndItm">
+						<div class="imgTrnd">
+							<div class="theImg"></div>
+							<div class="imgOpis">Northen</div>
+							<div class="price">From <span>$200</span></div>
+						</div>
+						<div class="trndDesc">
+							<div class="icon-location map">Czech Republic, Prague</div>
+							<a href="">Czech Republic</a>
+							<div class="trndRew star-5">49 reviwes</div>
+							<p class="postTime">3 hours ago</p>
+						</div>
+					</div>
+
+					<div class="trndItm">
+						<div class="imgTrnd">
+							<div class="theImg"></div>
+							<div class="imgOpis">Northen</div>
+							<div class="price">From <span>$300</span></div>
+						</div>
+						<div class="trndDesc">
+							<div class="icon-location map">Europ, Poland, Krakov</div>
+							<a href="">Poland</a>
+							<div class="trndRew star-3">49 reviwes</div>
+							<p class="postTime">3 hours ago</p>
+						</div>
+					</div>
+
+					<div class="trndItm">
+						<div class="imgTrnd">
+							<div class="theImg"></div>
+							<div class="imgOpis">Northen</div>
+							<div class="price">From <span>$300</span></div>
+						</div>
+						<div class="trndDesc">
+							<div class="icon-location map">Nordic country, Suomi</div>
+							<a href="">Finland, Helsinki</a>
+							<div class="trndRew star-2">80 reviwes</div>
+							<p class="postTime">4 week ago</p>
+						</div>
+					</div>
+
+					<div class="trndItm">
+						<div class="imgTrnd">
+							<div class="theImg"></div>
+							<div class="imgOpis">Northen</div>
+							<div class="price">From <span>$300</span></div>
+						</div>
+						<div class="trndDesc">
+							<div class="icon-location map">Reykjavík Island</div>
+							<a href="">Bosphorus Strait and Black Sea Half-Day Cruise from Istanbul</a>
+							<div class="trndRew star-3">49 reviwes</div>
+							<p class="postTime">23 hours ago</p>
+						</div>
+					</div>
+
+					<div class="trndItm">
+						<div class="imgTrnd">
+							<div class="theImg"></div>
+							<div class="imgOpis"></div>
+							<div class="price">From <span>$500</span></div>
+						</div>
+						<div class="trndDesc">
+							<div class="icon-location map">Northen America</div>
+							<a href="">Bosphorus Strait and Black Sea Half-Day Cruise from Istanbul</a>
+							<div class="trndRew star-2">49 reviwes</div>
+							<p class="postTime">1 month ago</p>
+						</div>
+					</div>
+
+					<div class="trndItm">
+						<div class="imgTrnd">
+							<div class="theImg"></div>
+							<div class="imgOpis">Finland, a legacy reflected</div>
+							<div class="price">From <span>$300</span></div>
+						</div>
+
+						<div class="trndDesc">
+							<div class="icon-location map">North America</div>
+							<a href="">Canada, northen perian</a>
+							<div class="trndRew star-4">80 reviwes</div>
+							<p class="postTime">2 days ago</p>
+						</div>
+					</div>
+
+
+					
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="trdBlck-tip">
+			<h2>Travel Tips</h2>
+			<p>Northern Ireland’s is now contingent. Britain is getting a divorce Northern Ireland is being offered a trial separation for Britain there is a one</p>
+			<a href="#">Dive it all</a>
+		</section>
+
+		<section class="frthBlck-chsCuz">
+
+			<h2 class="comn">Choose this because of</h2>
+			<div class="cuzLst">
+
+				<div class="cuzItm">
+					<div class="icn icon-thumbs-up"></div>
+					<h3>Some good stuffing</h3>
+					<p>With 500+ suppliers and the purchasing power of 300 million members, mytravel.com can save you more!</p>
+				</div>
+				<div class="cuzItm">
+					<div class="icn icon-award"></div>
+					<h3>Perfect item</h3>
+					<p>ravel worry-free knowing that we're here if you needus, 24 hours a day</p>
+				</div>
+				<div class="cuzItm">
+					<div class="icn icon-crown"></div>
+					<h3>Incredible tours</h3>
+					<p>Over 1,200,000 hotels in more than 200 countries</p>
+				</div>
+
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="fthBlck-blg">
+			<h2 class="comn">Features from blogs</h2>
+			<div class="blgWrp">
+				<div class="blgItm">
+					<div class="blgImg"></div>
+					<a href="#">
+						<h3>Earning Asian Clunb miles</h3>
+						<p>Book Hotels and Earn Asian</p>
+					</a>				
+				</div>
+				<div class="blgItm">
+					<div class="blgImg"></div>
+					<a href="#">
+						<h3>Save big on hotels</h3>
+						<p>Book and save with Trip</p>
+					</a>				
+				</div>
+				<div class="blgItm">
+					<div class="blgImg"></div>
+					<a href="#">
+						<h3>Expirience your way</h3>
+						<p>With Up to 30% Off to trippers</p>
+					</a>				
+				</div>
+				<div class="blgItm">
+					<div class="blgImg"></div>
+					<a href="#">
+						<h3>Cruises</h3>
+						<p>We are excited to announce that we are now offering river cruises in Europe, but not your typical cruise. Our European cruise selection is handpicked, featuring smaller vessels and old-world charm</p>
+					</a>				
+				</div>
+				<div class="blgItm">
+					<div class="blgImg"></div>
+					<a href="#">
+						<h3>Easy–Moderate Bike </h3>
+						<p>Discover the past and the present as you walk self-guided the French wine trails to two world-renowned Burgundy regions</p>
+					</a>				
+				</div>
+			</div>
+		</section>
+
+		<hr>
+
+		<footer>
+			<div class="ftrFlx">
+
+				<div class="inFlx logoWrp">
+					<a href="" class="logo ">
+						<img src="imgz/blackPlane.svg" alt="logotype" width="80px"> 
+						<h1>Some site</h1>
+					</a>
+				</div>
+
+				<div class="inFlx">
+
+					<h3>ABOUT US</h3>
+					<ul>
+						<li><a href="">About Us</a></a></li>
+						<li><a href="">What Makes Us Different</a></li>
+						<li><a href="">Our People</a></li>
+						<li><a href="">Our Partners and Prices</a></li>
+						<li><a href="">Giving Back</a></li>
+						<li><a href="">Giving Back</a></li>
+					</ul>
+					<h3>Giving Back</h3>
+					<ul>
+						<li><a href="">Giving Back</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="ftrFlx">
+
+				<div class="inFlx">
+					<h3>COLLECTIONS</h3>
+					<ul>
+						<li><a href="">Premier Collection</a></li>
+						<li><a href="">Danube Bike Tours</a></li>
+						<li><a href="">Electric Bike</a></li>
+						<li><a href="">Multi-Adventure</a></li>
+						<li><a href="">Food + Drink</a></li>
+						<li><a href="">Family Friendly</a></li>
+						<li><a href="">Our Favorites</a></li>
+						<li><a href="">Discounts</a></li>
+						<li><a href="">Luxury</a></li>
+						<li><a href="">Tulip Tours</a></li>
+						<li><a href="">Tuscany Bike Tours</a></li>
+						<li><a href="">Loire Valley Bike Tours</a></li>
+					</ul>
+
+				</div>
+
+				<div class="inFlx">
+					<h3>SUBSCRIBE</h3>
+					<p>Get the Tripsite Newsletter!</p>
+					<form action="">
+						<input type="email" name="" id="" placeholder="your@email.com"> 
+						<input type="submit" id="arrow" class="" value="" > <label for="arrow" class="center"></label>
+					</form>
+					<h3>CONTACT US</h3>
+					<p><a href="">some Phone</a></p>
+					<p><a href="">e-mail.adress</a></p>
+
+					<h3>FOLLOW US</h3>
+					<div class="ftrSoc">
+						<a href="facebook" class="socBtn allHref icon-facebook center">facebook</a>
+						<a href="twitter" class="socBtn allHref icon-twitter-bird center">twitter</a>
+						<a href="instagram" class="socBtn allHref icon-instagram center">instagram</a>
+						<a href="linked-in" class="socBtn allHref icon-linkedin center">linked-in</a>
+					</div>
+				</div>
+
+			</div>
+
+		</footer>
+
+	</main>
+	
+	<script src="jz/jc.js"></script>
+</body>
+</html>
+
