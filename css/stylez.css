@@ -96,10 +96,7 @@ header {
 	flex-direction: column;
 	justify-content: space-between;
 	background-blend-mode: multiply;
-/*	background: url(../imgz/bgimg1.jpg) 50% fixed;
-	-webkit-background-size: cover;
-	background-size: cover;
-*/	color: #fff;
+	color: #fff;
 	background-color: rgba(0, 0, 0, 0.6);
 	margin-bottom: 15px;
 	position: relative;
@@ -112,7 +109,7 @@ header::before {
 	height: 100%;
 	background-color: #000;
 	animation: rotate 1.5s;
-	background-image: url(../imgz/bgimg1.jpg);
+	background-image: url(../imgz/bgimg2.jpg);
 	background-size: cover;
 	background-position: 50% 50%;
 	position: absolute;
